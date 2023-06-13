@@ -1,0 +1,75 @@
+.main{
+    width: 430px;
+    margin: auto;
+    padding: auto;
+    padding-bottom: 50px;
+}
+ul{
+    list-style:  none;
+    margin: 60px 0;
+    font-size: 20px;
+}
+li{
+    height: 40px;
+}
+a{
+    color: black;
+    text-decoration: none;
+}
+a:hover{
+    color: turquoise;
+}
+.box{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+.backbtn{
+    padding: 10px;
+    
+    font-size: 13px;
+    
+}
+.you{
+    display: table-cell;
+    text-align: center;
+    clear: both;
+}
+.you-name {
+    display: inline-block;
+}
+.you-img{
+    height: 40px;
+    display: inline-block;
+    border-radius: 20px;
+}
+.msg{
+    padding-left: 50px;
+    padding-bottom: 30px;
+}
+.youmsg {
+    display: inline-block;
+    margin-right: 10px;
+    height: auto;
+}
+.text {
+    max-width: 250px;
+}
+.time{
+    display: inline-block;
+    padding: 0 0;
+}
+.image {
+    width: 150px;
+}
+.date{
+    clear: left;
+    text-align: center;
+    font-weight: bold;
+    margin: 50px 0px;
+}
+p{
+    margin: 5px;
+}
+.main div{
+    padding-left:14px;
+}
