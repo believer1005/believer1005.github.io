@@ -1,5 +1,13 @@
+
+@font-face {
+    font-family: 'omyu_pretty';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2304-01@1.0/omyu_pretty.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+body{font-family:'오뮤', 'omyu_pretty', 'omyu_pretty'}
 .main{
-    width: 430px;
+    max-width: 430px;
     margin: auto;
     padding: auto;
     padding-bottom: 50px;
@@ -72,4 +80,13 @@ p{
 }
 .main div{
     padding-left:14px;
+}
+#toTop {
+	position: fixed; 	/* 포지션 고정 */
+	bottom: 80px; 		/* 밑에서 100px */
+    right: 30px;
+	z-index: 9999; 		/* 포지션을 먼저 지정후 z-좌표(레이어) : 9999입니다. */
+    /*
+    display: none; 		/* 보여지지 없음 - 기본적으로 안보여지게 * /
+    */
 }

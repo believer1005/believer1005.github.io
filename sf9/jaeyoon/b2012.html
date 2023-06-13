@@ -5,12 +5,26 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JAEYOON : Bubble</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="stylesheet" href="../style/ustyle.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap" rel="stylesheet">
-    
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
 </head>
+<script>
+    $(function() { // 보이기 | 숨기기 
+	$(window).scroll(function() { 
+		if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+			$('#toTop').fadeIn(); 
+			$('#toTop').css('left', $('#sidebar').offset().left); // #sidebar left:0 죄표 
+		} else { 
+			$('#toTop').fadeOut(); 
+		} 
+	}); 
+	// 버튼 클릭시 
+	$("#toTop").click(function() { 
+		$('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+		}, 400); // 속도 400 return false; 
+	}); 
+});
+</script>
 <body>
     <div class="main">
         <div class="backbtn">
@@ -22,7 +36,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -36,7 +50,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -50,7 +64,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -64,7 +78,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -78,7 +92,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -92,7 +106,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -106,7 +120,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -120,7 +134,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -134,7 +148,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -148,7 +162,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -162,7 +176,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -176,7 +190,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -190,7 +204,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -204,7 +218,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -218,7 +232,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -232,7 +246,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -246,7 +260,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -260,7 +274,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -274,7 +288,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -288,7 +302,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -302,7 +316,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -316,7 +330,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -330,7 +344,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -344,7 +358,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -358,7 +372,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -372,7 +386,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -386,7 +400,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -400,7 +414,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -414,7 +428,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -432,7 +446,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -446,7 +460,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -460,7 +474,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -474,7 +488,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -488,7 +502,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -502,7 +516,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -516,7 +530,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -530,7 +544,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -544,7 +558,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -558,7 +572,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -576,7 +590,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -590,7 +604,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -604,7 +618,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -618,7 +632,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -632,7 +646,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -646,7 +660,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -660,7 +674,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -674,7 +688,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -688,7 +702,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -702,7 +716,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -716,7 +730,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -730,7 +744,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -744,7 +758,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -758,7 +772,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -772,7 +786,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -790,7 +804,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -804,7 +818,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -818,7 +832,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -832,7 +846,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -846,7 +860,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -860,7 +874,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -874,7 +888,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -888,7 +902,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -902,7 +916,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -916,7 +930,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -930,7 +944,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -944,7 +958,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -958,7 +972,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -972,7 +986,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -986,7 +1000,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1000,7 +1014,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1018,7 +1032,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1032,7 +1046,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1046,7 +1060,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1060,7 +1074,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1074,7 +1088,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1088,7 +1102,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1102,7 +1116,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1116,7 +1130,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1130,7 +1144,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1144,7 +1158,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1158,7 +1172,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1172,7 +1186,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1186,7 +1200,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1200,7 +1214,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1214,7 +1228,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1228,7 +1242,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1242,7 +1256,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1256,7 +1270,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1270,7 +1284,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1284,7 +1298,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1298,7 +1312,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1312,7 +1326,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1326,7 +1340,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1340,7 +1354,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1354,7 +1368,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1368,7 +1382,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1382,7 +1396,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1396,7 +1410,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1410,7 +1424,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1424,7 +1438,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1438,7 +1452,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1452,7 +1466,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1466,7 +1480,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1480,7 +1494,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1494,7 +1508,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1508,7 +1522,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1522,7 +1536,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1536,7 +1550,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1550,7 +1564,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1564,7 +1578,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1578,7 +1592,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1592,7 +1606,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1606,7 +1620,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1620,7 +1634,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1634,7 +1648,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1648,7 +1662,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1662,7 +1676,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1676,7 +1690,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1694,7 +1708,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1708,7 +1722,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1722,7 +1736,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1736,7 +1750,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1750,7 +1764,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1764,7 +1778,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1778,7 +1792,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1792,7 +1806,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1806,7 +1820,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1820,7 +1834,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1834,7 +1848,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1848,7 +1862,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1862,7 +1876,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1876,7 +1890,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1890,7 +1904,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1904,7 +1918,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1918,7 +1932,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1932,7 +1946,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1946,7 +1960,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1960,7 +1974,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1974,7 +1988,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -1988,7 +2002,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2002,7 +2016,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2016,7 +2030,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2030,7 +2044,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2044,7 +2058,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2058,7 +2072,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2072,7 +2086,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2086,7 +2100,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2104,7 +2118,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2118,7 +2132,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2132,7 +2146,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2146,7 +2160,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2160,7 +2174,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2174,7 +2188,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2188,7 +2202,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2202,7 +2216,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2216,7 +2230,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2230,7 +2244,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2244,7 +2258,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2258,7 +2272,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2272,7 +2286,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2286,7 +2300,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2300,7 +2314,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2314,7 +2328,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2328,7 +2342,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2342,7 +2356,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2356,7 +2370,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2370,7 +2384,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2384,7 +2398,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2398,7 +2412,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2412,7 +2426,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2426,7 +2440,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2440,7 +2454,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2454,7 +2468,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2468,7 +2482,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2482,7 +2496,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2496,7 +2510,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2510,7 +2524,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2524,7 +2538,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2538,7 +2552,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2552,7 +2566,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2566,7 +2580,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2580,7 +2594,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2594,7 +2608,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2608,7 +2622,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2622,7 +2636,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2640,7 +2654,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2654,7 +2668,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2668,7 +2682,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2682,7 +2696,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2696,7 +2710,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2710,7 +2724,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2724,7 +2738,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2738,7 +2752,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2752,7 +2766,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2766,7 +2780,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2780,7 +2794,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2794,7 +2808,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2808,7 +2822,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2822,7 +2836,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2836,7 +2850,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2850,7 +2864,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2864,7 +2878,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2878,7 +2892,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2892,7 +2906,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2906,7 +2920,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2920,7 +2934,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2934,7 +2948,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2948,7 +2962,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2962,7 +2976,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2976,7 +2990,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -2990,7 +3004,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3004,7 +3018,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3022,7 +3036,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3036,7 +3050,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3050,7 +3064,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3064,7 +3078,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3078,7 +3092,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3092,7 +3106,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3106,7 +3120,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3120,7 +3134,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3134,7 +3148,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3148,7 +3162,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3162,7 +3176,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3176,7 +3190,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3190,7 +3204,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3204,7 +3218,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3218,7 +3232,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3232,7 +3246,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3246,7 +3260,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3260,7 +3274,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3274,7 +3288,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3288,7 +3302,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3302,7 +3316,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3316,7 +3330,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3330,7 +3344,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3344,7 +3358,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3358,7 +3372,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3372,7 +3386,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3386,7 +3400,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3400,7 +3414,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3414,7 +3428,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3428,7 +3442,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3442,7 +3456,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3456,7 +3470,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3470,7 +3484,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3484,7 +3498,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3498,7 +3512,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3512,7 +3526,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3526,7 +3540,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3540,7 +3554,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3554,7 +3568,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3568,7 +3582,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3582,7 +3596,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3600,7 +3614,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3614,7 +3628,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3628,7 +3642,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3642,7 +3656,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3656,7 +3670,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3670,7 +3684,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3684,7 +3698,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3698,7 +3712,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3712,7 +3726,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3726,7 +3740,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3740,7 +3754,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3754,7 +3768,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3768,7 +3782,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3782,7 +3796,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3796,7 +3810,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3810,7 +3824,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3824,7 +3838,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3838,7 +3852,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3852,7 +3866,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3866,7 +3880,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3880,7 +3894,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3894,7 +3908,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3908,7 +3922,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3922,7 +3936,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3936,7 +3950,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3950,7 +3964,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3964,7 +3978,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3978,7 +3992,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -3992,7 +4006,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4006,7 +4020,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4020,7 +4034,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4038,7 +4052,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4052,7 +4066,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4066,7 +4080,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4080,7 +4094,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4094,7 +4108,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4108,7 +4122,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4122,7 +4136,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4136,7 +4150,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4150,7 +4164,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4164,7 +4178,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4178,7 +4192,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4192,7 +4206,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4206,7 +4220,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4220,7 +4234,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4234,7 +4248,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4248,7 +4262,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4262,7 +4276,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4276,7 +4290,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4290,7 +4304,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4304,7 +4318,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4318,7 +4332,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4332,7 +4346,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4346,7 +4360,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4360,7 +4374,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4374,7 +4388,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4388,7 +4402,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4402,7 +4416,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4416,7 +4430,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4430,7 +4444,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4444,7 +4458,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4458,7 +4472,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4472,7 +4486,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4486,7 +4500,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4500,7 +4514,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4514,7 +4528,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4528,7 +4542,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4542,7 +4556,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4556,7 +4570,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4570,7 +4584,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4584,7 +4598,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4598,7 +4612,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4612,7 +4626,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4626,7 +4640,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4640,7 +4654,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4654,7 +4668,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4668,7 +4682,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4682,7 +4696,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4696,7 +4710,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4710,7 +4724,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4724,7 +4738,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4738,7 +4752,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4752,7 +4766,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4766,7 +4780,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4780,7 +4794,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4794,7 +4808,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4808,7 +4822,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4822,7 +4836,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4836,7 +4850,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4850,7 +4864,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4864,7 +4878,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4878,7 +4892,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4892,7 +4906,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4906,7 +4920,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4920,7 +4934,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4934,7 +4948,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4948,7 +4962,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4966,7 +4980,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4980,7 +4994,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -4994,7 +5008,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5008,7 +5022,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5022,7 +5036,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5036,7 +5050,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5050,7 +5064,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5064,7 +5078,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5078,7 +5092,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5092,7 +5106,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5106,7 +5120,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5120,7 +5134,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5134,7 +5148,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5148,7 +5162,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5162,7 +5176,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5176,7 +5190,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5190,7 +5204,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5204,7 +5218,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5218,7 +5232,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5232,7 +5246,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5246,7 +5260,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5260,7 +5274,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5274,7 +5288,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5288,7 +5302,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5302,7 +5316,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5316,7 +5330,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5330,7 +5344,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5344,7 +5358,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5358,7 +5372,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5372,7 +5386,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5386,7 +5400,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5400,7 +5414,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5414,7 +5428,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5428,7 +5442,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5442,7 +5456,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5456,7 +5470,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5470,7 +5484,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5484,7 +5498,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5498,7 +5512,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5512,7 +5526,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5526,7 +5540,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5540,7 +5554,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5554,7 +5568,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5568,7 +5582,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5582,7 +5596,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5596,7 +5610,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5610,7 +5624,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5624,7 +5638,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5638,7 +5652,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5652,7 +5666,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5666,7 +5680,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5680,7 +5694,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5694,7 +5708,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5708,7 +5722,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5722,7 +5736,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5736,7 +5750,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5754,7 +5768,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5768,7 +5782,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5782,7 +5796,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5796,7 +5810,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5810,7 +5824,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5824,7 +5838,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5838,7 +5852,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5856,7 +5870,7 @@
         </div>    
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5870,7 +5884,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5884,7 +5898,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5898,7 +5912,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5912,7 +5926,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5926,7 +5940,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5940,7 +5954,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5954,7 +5968,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5968,7 +5982,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5982,7 +5996,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -5996,7 +6010,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6010,7 +6024,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6024,7 +6038,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6038,7 +6052,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6052,7 +6066,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6066,7 +6080,7 @@
   
       
         <div class="you">
-            <img class="you-img" src="/static/jy.jpg" /> 
+            <img class="you-img" src="../static/jy.jpg" /> 
             <p class="you-name">❤️</p>
         </div>
         <div class="msg">
@@ -6077,6 +6091,7 @@
                 <p class="">01:59</p>
             </div>
         </div>
+        <a id="toTop" href="#">TOP</a>
     </div>
 </body>
 </html>
