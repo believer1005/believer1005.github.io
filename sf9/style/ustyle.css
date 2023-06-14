@@ -90,3 +90,9 @@ p{
     display: none; 		/* 보여지지 없음 - 기본적으로 안보여지게 * /
     */
 }
+.none{
+    color: rgb(193, 193, 193);
+}
+.none:hover{
+    color: gray;
+}

@@ -7,8 +7,24 @@
     <link rel="stylesheet" href="../style/ustyle.css">
     <title>CHANI : Universe</title>
     <link rel="stylesheet" href="../style/ustyle.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
-</head>
+</head><script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function() { // 보이기 | 숨기기 
+    $(window).scroll(function() { 
+      if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+        $('#toTop').fadeIn(); 
+        $('#toTop').css('left', $('#sidebar').offset().left); // #sidebar left:0 죄표 
+      } else { 
+        $('#toTop').fadeOut(); 
+      } 
+    }); 
+    // 버튼 클릭시 
+    $("#toTop").click(function() { 
+      $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+      }, 400); // 속도 400 return false; 
+    }); 
+  });
+</script>
 <body>
     <div class="main">
        <div class="backbtn">
@@ -23,12 +39,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 소식들었구나ㅠㅠ걱정 끼쳐서 미안해요...약먹고 잘 회복하고있으니까 너무 걱정마!! </p>
+                    <p class="">소식들었구나ㅠㅠ걱정 끼쳐서 미안해요...약먹고 잘 회복하고있으니까 너무 걱정마!!</p>
                     
                 </div>
                 <div class="time">
@@ -43,7 +59,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -67,12 +83,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 오늘 자고 일어났더니 많이 괜찮아 졌다!!! </p>
+                    <p class="">오늘 자고 일어났더니 많이 괜찮아 졌다!!!</p>
                     
                 </div>
                 <div class="time">
@@ -87,7 +103,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -107,12 +123,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> slander - love is gone 노래 좋더라~ </p>
+                    <p class="">slander - love is gone 노래 좋더라~</p>
                     
                 </div>
                 <div class="time">
@@ -127,12 +143,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 같이 듣자~ </p>
+                    <p class="">같이 듣자~</p>
                     
                 </div>
                 <div class="time">
@@ -151,7 +167,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -171,12 +187,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 잠깐 집 방역해주신다해서 </p>
+                    <p class="">잠깐 집 방역해주신다해서</p>
                     
                 </div>
                 <div class="time">
@@ -191,12 +207,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 잠깐 집 앞에 나왔다~~ </p>
+                    <p class="">잠깐 집 앞에 나왔다~~</p>
                     
                 </div>
                 <div class="time">
@@ -211,7 +227,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -231,7 +247,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -251,7 +267,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -271,7 +287,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -295,7 +311,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -315,7 +331,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -335,7 +351,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -359,7 +375,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -379,7 +395,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -399,12 +415,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 다원이형이랑 오랜만에 놀러갔다 왔다~.~ </p>
+                    <p class="">다원이형이랑 오랜만에 놀러갔다 왔다~.~</p>
                     
                 </div>
                 <div class="time">
@@ -419,7 +435,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -439,12 +455,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 다원이형이 사진 열심히 찍어줬어ㅎㅎ </p>
+                    <p class="">다원이형이 사진 열심히 찍어줬어ㅎㅎ</p>
                     
                 </div>
                 <div class="time">
@@ -456,6 +472,7 @@
         <div class="backbtn">
             <a class="next" href="u2206.html">Next</a>
         </div>
+        <a id="toTop" href="#">TOP</a>
     </div>
 </body>
 </html>

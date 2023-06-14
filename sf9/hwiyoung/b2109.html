@@ -1,0 +1,609 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HWI YOUNG : BUBBLE</title>
+    <link rel="stylesheet" href="../style/ustyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function() { // 보이기 | 숨기기 
+      $(window).scroll(function() { 
+        if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+          $('#toTop').fadeIn(); 
+          $('#toTop').css('left', $('#sidebar').offset().left); // #sidebar left:0 죄표 
+        } else { 
+          $('#toTop').fadeOut(); 
+        } 
+      }); 
+      // 버튼 클릭시 
+      $("#toTop").click(function() { 
+        $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+        }, 400); // 속도 400 return false; 
+      }); 
+    });
+  </script>
+<body>
+    <div class="main">
+      <div class="backbtn">
+        <a href="bubble.html">뒤로가기</a>
+     </div>
+    
+        
+            <div class="date">
+                2021-09-04
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">우울하다</p>
+            </div>
+            <div class="time">
+                <p class="">19:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">재밌게 보고있던 애니를 다봐버렸어</p>
+            </div>
+            <div class="time">
+                <p class="">19:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이제 볼게없어</p>
+            </div>
+            <div class="time">
+                <p class="">19:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이젠 진짜 볼게 없어 .. 뭘봐야할까</p>
+            </div>
+            <div class="time">
+                <p class="">19:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">볼거 찾았다 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">19:56</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-09-05
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">심심해 미치겠다</p>
+            </div>
+            <div class="time">
+                <p class="">23:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">부담스러워?</p>
+            </div>
+            <div class="time">
+                <p class="">23:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.17/</p>
+            </div>
+            <div class="time">
+                <p class="">23:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">힝구..</p>
+            </div>
+            <div class="time">
+                <p class="">23:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">스티커 센스있지?</p>
+            </div>
+            <div class="time">
+                <p class="">23:21</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">사진 보냈는데 반응이 별로 좋지않그만</p>
+            </div>
+            <div class="time">
+                <p class="">23:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그래도 괜찮아 난 재밌었어 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">23:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">웃으면서 살자 우리 🤪</p>
+            </div>
+            <div class="time">
+                <p class="">23:23</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-09-17
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">11:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">기여워</p>
+            </div>
+            <div class="time">
+                <p class="">11:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아따 오늘 차 많이 막힌다</p>
+            </div>
+            <div class="time">
+                <p class="">17:27</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아</p>
+            </div>
+            <div class="time">
+                <p class="">17:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">연휴구나..</p>
+            </div>
+            <div class="time">
+                <p class="">17:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">자연스럽게 일하느라 몰랐다</p>
+            </div>
+            <div class="time">
+                <p class="">17:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">젠장</p>
+            </div>
+            <div class="time">
+                <p class="">17:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나도 쉬고싶지요~ 근데 쉬면 </p>
+            </div>
+            <div class="time">
+                <p class="">17:38</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어떤 말로 합리화 하려고 했는데</p>
+            </div>
+            <div class="time">
+                <p class="">17:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">합리화가 어렵다 ㅋㅋㅋㅋㅋ</p>
+            </div>
+            <div class="time">
+                <p class="">17:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">경제가 어려우니 물가는 올라가고</p>
+            </div>
+            <div class="time">
+                <p class="">17:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">더 열심히 일해야지 삶의 질을 유지할수 있어서 .. 머 힘들어도 해야지 별 수 있나</p>
+            </div>
+            <div class="time">
+                <p class="">17:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">추석에 여러분들 머해</p>
+            </div>
+            <div class="time">
+                <p class="">17:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">머 나는 성묘 가지 않을까</p>
+            </div>
+            <div class="time">
+                <p class="">17:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">당일에는 스케줄 없음</p>
+            </div>
+            <div class="time">
+                <p class="">17:46</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">암튼 다.  들 고생하고 화이팅해</p>
+            </div>
+            <div class="time">
+                <p class="">17:48</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-09-21
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">13:33</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@ 즐추</p>
+            </div>
+            <div class="time">
+                <p class="">13:33</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-09-25
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">01:57</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">사클 안올라가 그냥 끄적끄적</p>
+            </div>
+            <div class="time">
+                <p class="">01:58</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-09-29
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">03:54</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이런것도 좋아해?</p>
+            </div>
+            <div class="time">
+                <p class="">03:54</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/hy.jpg" /> 
+            <p class="you-name">kyun</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오케이 그럼 우울한걸 한번 해봐야겠다</p>
+            </div>
+            <div class="time">
+                <p class="">03:59</p>
+            </div>
+        </div>
+        <a id="toTop" href="#">TOP</a>
+    
+    </div>
+</body>
+</html>

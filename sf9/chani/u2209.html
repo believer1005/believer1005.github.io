@@ -4,11 +4,27 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="../style/ustyle.css">
     <title>CHANI : Universe</title>
     <link rel="stylesheet" href="../style/ustyle.css">
-    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
 </head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+  $(function() { // 보이기 | 숨기기 
+    $(window).scroll(function() { 
+      if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+        $('#toTop').fadeIn(); 
+        $('#toTop').css('left', $('#sidebar').offset().left); // #sidebar left:0 죄표 
+      } else { 
+        $('#toTop').fadeOut(); 
+      } 
+    }); 
+    // 버튼 클릭시 
+    $("#toTop").click(function() { 
+      $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+      }, 400); // 속도 400 return false; 
+    }); 
+  });
+</script>
 <body>
     <div class="main">
         <div class="backbtn">
@@ -23,7 +39,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -43,12 +59,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 다들 비 맞지말고 조심!! </p>
+                    <p class="">다들 비 맞지말고 조심!!</p>
                     
                 </div>
                 <div class="time">
@@ -63,12 +79,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 우산 꼭 챙기고!! </p>
+                    <p class="">우산 꼭 챙기고!!</p>
                     
                 </div>
                 <div class="time">
@@ -83,12 +99,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 🌂 </p>
+                    <p class="">🌂</p>
                     
                 </div>
                 <div class="time">
@@ -107,12 +123,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 다들 즐거운 추석보내~.~!!!! </p>
+                    <p class="">다들 즐거운 추석보내~.~!!!!</p>
                     
                 </div>
                 <div class="time">
@@ -127,12 +143,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 😀 </p>
+                    <p class="">😀</p>
                     
                 </div>
                 <div class="time">
@@ -147,7 +163,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -171,7 +187,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -191,7 +207,7 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
@@ -211,12 +227,12 @@
             
             <div class="you">
                 <img class="you-img" src="../static/profile.jpg" /> 
-                <p class="you-name"> 찬희</p>
+                <p class="you-name">찬희</p>
             </div>
             <div class="msg">
                 
                 <div class="youmsg text">
-                    <p class=""> 날씨 좋다~~ </p>
+                    <p class="">날씨 좋다~~</p>
                     
                 </div>
                 <div class="time">
@@ -228,6 +244,7 @@
         <div class="backbtn">
             <a class="next" href="u2210.html">Next</a>
         </div>
+        <a id="toTop" href="#">TOP</a>
     </div>
 </body>
 </html>
