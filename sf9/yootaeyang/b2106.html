@@ -1,0 +1,5347 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YOO TAE YANG : BUBBLE</title>
+    <link rel="stylesheet" href="../style/ustyle.css">
+    <script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></script>
+</head>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script>
+    $(function() { // 보이기 | 숨기기 
+      $(window).scroll(function() { 
+        if ($(this).scrollTop() > 250) { //250 넘으면 버튼이 보여짐니다. 
+          $('#toTop').fadeIn(); 
+          $('#toTop').css('left', $('#sidebar').offset().left); // #sidebar left:0 죄표 
+        } else { 
+          $('#toTop').fadeOut(); 
+        } 
+      }); 
+      // 버튼 클릭시 
+      $("#toTop").click(function() { 
+        $('html, body').animate({ scrollTop : 0 // 0 까지 animation 이동합니다. 
+        }, 400); // 속도 400 return false; 
+      }); 
+    });
+  </script>
+<body>
+    <div class="main">
+      <div class="backbtn">
+        <a href="../../index.html">뒤로가기</a>
+    </div>
+    
+        
+            <div class="date">
+                2021-06-01
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">안녕</p>
+            </div>
+            <div class="time">
+                <p class="">23:02</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">머해?</p>
+            </div>
+            <div class="time">
+                <p class="">23:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나랑똑같네 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">23:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">우리통하는구나?</p>
+            </div>
+            <div class="time">
+                <p class="">23:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">너 내생각만하라고했더니</p>
+            </div>
+            <div class="time">
+                <p class="">23:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">참</p>
+            </div>
+            <div class="time">
+                <p class="">23:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">숨쉴시간있어?</p>
+            </div>
+            <div class="time">
+                <p class="">23:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내생각하느라 숨이턱턱막혀야지</p>
+            </div>
+            <div class="time">
+                <p class="">23:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">보고싶다</p>
+            </div>
+            <div class="time">
+                <p class="">23:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">23:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">알겠어요 화내지마요</p>
+            </div>
+            <div class="time">
+                <p class="">23:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">지금은못가여</p>
+            </div>
+            <div class="time">
+                <p class="">23:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">주소쓰지마여</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 한가한사람아니야</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">보러오던가</p>
+            </div>
+            <div class="time">
+                <p class="">23:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">📞보이스톡 거절</p>
+            </div>
+            <div class="time">
+                <p class="">23:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">다시올게</p>
+            </div>
+            <div class="time">
+                <p class="">23:22</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-02
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">다시갈게</p>
+            </div>
+            <div class="time">
+                <p class="">01:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">01:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@~~</p>
+            </div>
+            <div class="time">
+                <p class="">12:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@</p>
+            </div>
+            <div class="time">
+                <p class="">12:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">바빠?</p>
+            </div>
+            <div class="time">
+                <p class="">12:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">바빠도 나보고바빠</p>
+            </div>
+            <div class="time">
+                <p class="">12:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">찌릿</p>
+            </div>
+            <div class="time">
+                <p class="">12:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">점심꼭챙겨먹어</p>
+            </div>
+            <div class="time">
+                <p class="">12:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">걱정시키지말고</p>
+            </div>
+            <div class="time">
+                <p class="">12:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이따 톡하자</p>
+            </div>
+            <div class="time">
+                <p class="">12:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘도아자 해</p>
+            </div>
+            <div class="time">
+                <p class="">12:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">흐</p>
+            </div>
+            <div class="time">
+                <p class="">12:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/포동이.20/</p>
+            </div>
+            <div class="time">
+                <p class="">12:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응응~</p>
+            </div>
+            <div class="time">
+                <p class="">12:42</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">12:42</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">18:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">저녁도 해피하자</p>
+            </div>
+            <div class="time">
+                <p class="">18:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">해가이쁘다</p>
+            </div>
+            <div class="time">
+                <p class="">18:05</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-04
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">13:34</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">안녕</p>
+            </div>
+            <div class="time">
+                <p class="">13:34</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">U🌞이야</p>
+            </div>
+            <div class="time">
+                <p class="">13:34</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘잤어?</p>
+            </div>
+            <div class="time">
+                <p class="">13:36</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어제내생각많이했지?</p>
+            </div>
+            <div class="time">
+                <p class="">13:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그런의미로 밥먹고올게</p>
+            </div>
+            <div class="time">
+                <p class="">13:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">밥왔어</p>
+            </div>
+            <div class="time">
+                <p class="">13:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">밥먹고있어^^</p>
+            </div>
+            <div class="time">
+                <p class="">14:01</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘 만큼은 원없이 먹을꺼야</p>
+            </div>
+            <div class="time">
+                <p class="">14:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">두개나 시켰어</p>
+            </div>
+            <div class="time">
+                <p class="">14:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">닭볶음 탕과 뭘까요?</p>
+            </div>
+            <div class="time">
+                <p class="">14:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어제 너무 배고팠어 ㅎㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">14:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">피자&amp;햄버거🍔🍟🍕</p>
+            </div>
+            <div class="time">
+                <p class="">14:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">먹으니까 조타~</p>
+            </div>
+            <div class="time">
+                <p class="">14:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">먹으면서 톡안하면 또 못해</p>
+            </div>
+            <div class="time">
+                <p class="">14:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">톡 늦게할수있어</p>
+            </div>
+            <div class="time">
+                <p class="">14:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">맛나게 먹고 있어 신경안써도돼^^</p>
+            </div>
+            <div class="time">
+                <p class="">14:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어젠 너무 힘들어서 밥먹고 자고싶었는데 뻗었다</p>
+            </div>
+            <div class="time">
+                <p class="">14:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어제 인⭐️도 간신히 올림 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">14:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">손이 다 덜덜^^;;</p>
+            </div>
+            <div class="time">
+                <p class="">14:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘은 너무 내얘기만 하지?</p>
+            </div>
+            <div class="time">
+                <p class="">14:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">옷 이뻐?</p>
+            </div>
+            <div class="time">
+                <p class="">14:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">브앱한번할께</p>
+            </div>
+            <div class="time">
+                <p class="">14:16</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그때 킹덤 얘기하자</p>
+            </div>
+            <div class="time">
+                <p class="">14:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">지금은 밥먹고 쉬고싶다 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">14:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">편하게 톡하니까 조타</p>
+            </div>
+            <div class="time">
+                <p class="">14:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">고맙네</p>
+            </div>
+            <div class="time">
+                <p class="">14:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내가 진짜 칭찬에 힘이 팍팍 솟아유~~</p>
+            </div>
+            <div class="time">
+                <p class="">14:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘도 힘내서 할께 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">14:21</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잠깐</p>
+            </div>
+            <div class="time">
+                <p class="">14:24</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(동영상)</p>
+            </div>
+            <div class="time">
+                <p class="">14:31</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">유출하지마</p>
+            </div>
+            <div class="time">
+                <p class="">14:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">하나 또 있는데 유출하면 안보여줘</p>
+            </div>
+            <div class="time">
+                <p class="">14:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">B컷이야</p>
+            </div>
+            <div class="time">
+                <p class="">14:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아고</p>
+            </div>
+            <div class="time">
+                <p class="">14:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 쏫았잖아 🤣</p>
+            </div>
+            <div class="time">
+                <p class="">14:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅋㅋㅋㅋ웃다가 쏫았어</p>
+            </div>
+            <div class="time">
+                <p class="">14:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">참 희한하지 여기서 톡하면 피식웃게되는 버릇이 생겼어</p>
+            </div>
+            <div class="time">
+                <p class="">14:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 연습가야할시간</p>
+            </div>
+            <div class="time">
+                <p class="">14:42</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">더 놀고싶당</p>
+            </div>
+            <div class="time">
+                <p class="">14:42</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@ 이따올께 빠👋</p>
+            </div>
+            <div class="time">
+                <p class="">14:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">23:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(동영상)</p>
+            </div>
+            <div class="time">
+                <p class="">23:51</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">B컷</p>
+            </div>
+            <div class="time">
+                <p class="">23:51</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘자🌙</p>
+            </div>
+            <div class="time">
+                <p class="">23:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">알써🌙</p>
+            </div>
+            <div class="time">
+                <p class="">23:57</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-05
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">점심 먹었어?</p>
+            </div>
+            <div class="time">
+                <p class="">14:37</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난 오리백숙.감자전.닭도리탕.도토리묵</p>
+            </div>
+            <div class="time">
+                <p class="">14:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">마니먹다! 배부르다!</p>
+            </div>
+            <div class="time">
+                <p class="">14:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">말투이상하다?</p>
+            </div>
+            <div class="time">
+                <p class="">14:46</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그냥이렇게얘기하고싶다</p>
+            </div>
+            <div class="time">
+                <p class="">14:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아직도내가유태양으로보이나?</p>
+            </div>
+            <div class="time">
+                <p class="">14:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘은이러고얘기하다</p>
+            </div>
+            <div class="time">
+                <p class="">14:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@야도이러고얘기하다</p>
+            </div>
+            <div class="time">
+                <p class="">14:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">멈추지않는다</p>
+            </div>
+            <div class="time">
+                <p class="">14:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘저녁메뉴는머다?</p>
+            </div>
+            <div class="time">
+                <p class="">14:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">우린오늘이러고얘기하다</p>
+            </div>
+            <div class="time">
+                <p class="">14:51</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">유태양이추천해주다</p>
+            </div>
+            <div class="time">
+                <p class="">14:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">1.갈비와냉면</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">2.김치찌개와계란말이</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">3.짜장면과탕수육</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">4.쫄면과만두</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">5.불고기와밥</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이중에먹고올려준다</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그럼좋갰다</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내가먹고싶은거다</p>
+            </div>
+            <div class="time">
+                <p class="">14:57</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">태양오다</p>
+            </div>
+            <div class="time">
+                <p class="">15:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이제 그만하다</p>
+            </div>
+            <div class="time">
+                <p class="">15:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">😁</p>
+            </div>
+            <div class="time">
+                <p class="">15:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">다시오다</p>
+            </div>
+            <div class="time">
+                <p class="">15:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나에게톡이다</p>
+            </div>
+            <div class="time">
+                <p class="">15:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그래서결심하다</p>
+            </div>
+            <div class="time">
+                <p class="">15:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">소장용사진주갰다</p>
+            </div>
+            <div class="time">
+                <p class="">15:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@만소장하다</p>
+            </div>
+            <div class="time">
+                <p class="">15:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">기다리다</p>
+            </div>
+            <div class="time">
+                <p class="">15:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오타내다</p>
+            </div>
+            <div class="time">
+                <p class="">15:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오타는내시그니쳐다</p>
+            </div>
+            <div class="time">
+                <p class="">15:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그렇다</p>
+            </div>
+            <div class="time">
+                <p class="">15:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이거만들다 늦였다</p>
+            </div>
+            <div class="time">
+                <p class="">15:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">소장용들보내다</p>
+            </div>
+            <div class="time">
+                <p class="">15:24</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:25</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@는간직하다</p>
+            </div>
+            <div class="time">
+                <p class="">15:26</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">유태양가다</p>
+            </div>
+            <div class="time">
+                <p class="">15:27</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">다시온다</p>
+            </div>
+            <div class="time">
+                <p class="">15:27</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">또보자</p>
+            </div>
+            <div class="time">
+                <p class="">15:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">즐거웠다</p>
+            </div>
+            <div class="time">
+                <p class="">15:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">21:21</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">22:49</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-06
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">머해?</p>
+            </div>
+            <div class="time">
+                <p class="">17:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">일요일 잘 보내고있지?</p>
+            </div>
+            <div class="time">
+                <p class="">17:42</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내생각했다구?</p>
+            </div>
+            <div class="time">
+                <p class="">17:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">거짓말좀한다</p>
+            </div>
+            <div class="time">
+                <p class="">17:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">으그으그</p>
+            </div>
+            <div class="time">
+                <p class="">17:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">말이 많은것보니...거짓말이군</p>
+            </div>
+            <div class="time">
+                <p class="">17:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난 하니까 자주오지~</p>
+            </div>
+            <div class="time">
+                <p class="">17:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">바보냐?!</p>
+            </div>
+            <div class="time">
+                <p class="">17:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이 반응 머냐</p>
+            </div>
+            <div class="time">
+                <p class="">17:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">화난거냐?</p>
+            </div>
+            <div class="time">
+                <p class="">17:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내가 더 바보다’</p>
+            </div>
+            <div class="time">
+                <p class="">17:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난 연습하고 하늘 좀 볼까해</p>
+            </div>
+            <div class="time">
+                <p class="">17:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내일부터는 달리려구</p>
+            </div>
+            <div class="time">
+                <p class="">17:51</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅎㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">17:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">쉬고있어</p>
+            </div>
+            <div class="time">
+                <p class="">17:54</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">봤어?</p>
+            </div>
+            <div class="time">
+                <p class="">22:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘하늘이쁘지?</p>
+            </div>
+            <div class="time">
+                <p class="">22:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">22:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">22:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">22:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">운동은 즐겁다 😅</p>
+            </div>
+            <div class="time">
+                <p class="">22:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">휴일 끝✌️</p>
+            </div>
+            <div class="time">
+                <p class="">22:20</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난 이제 갑니다👋</p>
+            </div>
+            <div class="time">
+                <p class="">22:23</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-07
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그냥그렇다고</p>
+            </div>
+            <div class="time">
+                <p class="">12:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">원래 내가이기는거였어</p>
+            </div>
+            <div class="time">
+                <p class="">12:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">12:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">쳇</p>
+            </div>
+            <div class="time">
+                <p class="">12:45</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-08
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">11:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘의하늘</p>
+            </div>
+            <div class="time">
+                <p class="">11:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">기분좋은하루가되길바래</p>
+            </div>
+            <div class="time">
+                <p class="">11:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.18/</p>
+            </div>
+            <div class="time">
+                <p class="">11:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">틈나면 내생각도해주구</p>
+            </div>
+            <div class="time">
+                <p class="">11:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나도항상하니까</p>
+            </div>
+            <div class="time">
+                <p class="">11:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(집착)😗</p>
+            </div>
+            <div class="time">
+                <p class="">11:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅎㅎ 점심먹을때톡해</p>
+            </div>
+            <div class="time">
+                <p class="">11:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응응</p>
+            </div>
+            <div class="time">
+                <p class="">11:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘있았어?</p>
+            </div>
+            <div class="time">
+                <p class="">21:33</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는퇴근해서 톡했어어</p>
+            </div>
+            <div class="time">
+                <p class="">21:34</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">점심저녁 잘 챙겪지</p>
+            </div>
+            <div class="time">
+                <p class="">21:36</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">바쁘게일했어</p>
+            </div>
+            <div class="time">
+                <p class="">21:37</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">너가이해해</p>
+            </div>
+            <div class="time">
+                <p class="">21:37</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.4/</p>
+            </div>
+            <div class="time">
+                <p class="">21:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">밥지금먹었오</p>
+            </div>
+            <div class="time">
+                <p class="">21:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">냉면먹었어</p>
+            </div>
+            <div class="time">
+                <p class="">21:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">매운냉면</p>
+            </div>
+            <div class="time">
+                <p class="">21:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">매워</p>
+            </div>
+            <div class="time">
+                <p class="">21:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">얼음10개 먹었어</p>
+            </div>
+            <div class="time">
+                <p class="">21:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">매워서</p>
+            </div>
+            <div class="time">
+                <p class="">21:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">머리아퍼 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">21:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">우유마실까?</p>
+            </div>
+            <div class="time">
+                <p class="">21:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아이스크림?</p>
+            </div>
+            <div class="time">
+                <p class="">21:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">먹으면 머리안아퍼?</p>
+            </div>
+            <div class="time">
+                <p class="">21:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응응</p>
+            </div>
+            <div class="time">
+                <p class="">21:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이제 매운거 안먹어^^;</p>
+            </div>
+            <div class="time">
+                <p class="">21:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 이제 또 다녀올께</p>
+            </div>
+            <div class="time">
+                <p class="">21:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">쉬고있어</p>
+            </div>
+            <div class="time">
+                <p class="">21:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">23:07</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-09
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">14:28</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-10
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">특별히</p>
+            </div>
+            <div class="time">
+                <p class="">17:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">17:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">💛</p>
+            </div>
+            <div class="time">
+                <p class="">17:01</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-11
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">넌이거바</p>
+            </div>
+            <div class="time">
+                <p class="">12:47</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">12:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">푸히</p>
+            </div>
+            <div class="time">
+                <p class="">12:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@만봐라~</p>
+            </div>
+            <div class="time">
+                <p class="">12:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">점심맛나게먹어</p>
+            </div>
+            <div class="time">
+                <p class="">12:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">빠</p>
+            </div>
+            <div class="time">
+                <p class="">12:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">12:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">21:19</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-12
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">인스타봤어?</p>
+            </div>
+            <div class="time">
+                <p class="">13:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">역주행가자</p>
+            </div>
+            <div class="time">
+                <p class="">13:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.3/</p>
+            </div>
+            <div class="time">
+                <p class="">13:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">여름향기가 널 춤추게해</p>
+            </div>
+            <div class="time">
+                <p class="">13:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.20/</p>
+            </div>
+            <div class="time">
+                <p class="">13:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">13:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">인증해라</p>
+            </div>
+            <div class="time">
+                <p class="">13:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">19:48</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">저녁 맛나게 먹어</p>
+            </div>
+            <div class="time">
+                <p class="">19:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응</p>
+            </div>
+            <div class="time">
+                <p class="">19:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나도 맛난거 먹을께</p>
+            </div>
+            <div class="time">
+                <p class="">19:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">여름향기 잘 듣고 있지?ㅎㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">19:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">포기하지마😀</p>
+            </div>
+            <div class="time">
+                <p class="">19:52</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">주말이라서 포기하면 안대</p>
+            </div>
+            <div class="time">
+                <p class="">19:55</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">주말이잖아~~~여름향기가날춤추게해~^^</p>
+            </div>
+            <div class="time">
+                <p class="">19:55</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">😁</p>
+            </div>
+            <div class="time">
+                <p class="">19:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">연습하고 올께^^</p>
+            </div>
+            <div class="time">
+                <p class="">19:56</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-16
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">자?</p>
+            </div>
+            <div class="time">
+                <p class="">01:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤헤</p>
+            </div>
+            <div class="time">
+                <p class="">01:01</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘있지?</p>
+            </div>
+            <div class="time">
+                <p class="">01:01</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">바쁘게 일하구 자기전에왔어</p>
+            </div>
+            <div class="time">
+                <p class="">01:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 잊고 있을까봐</p>
+            </div>
+            <div class="time">
+                <p class="">01:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.1/</p>
+            </div>
+            <div class="time">
+                <p class="">01:03</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤 칭찬해줘</p>
+            </div>
+            <div class="time">
+                <p class="">01:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">사진?</p>
+            </div>
+            <div class="time">
+                <p class="">01:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나보고싶어서?</p>
+            </div>
+            <div class="time">
+                <p class="">01:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">흠 오늘안찍었는데</p>
+            </div>
+            <div class="time">
+                <p class="">01:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">있어바 찾아볼게</p>
+            </div>
+            <div class="time">
+                <p class="">01:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">01:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">가져</p>
+            </div>
+            <div class="time">
+                <p class="">01:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">01:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">두둔!</p>
+            </div>
+            <div class="time">
+                <p class="">01:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">01:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">멍💤</p>
+            </div>
+            <div class="time">
+                <p class="">01:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">🧸</p>
+            </div>
+            <div class="time">
+                <p class="">01:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그러니까 틈틈히 생각해줘</p>
+            </div>
+            <div class="time">
+                <p class="">01:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">다 안다~</p>
+            </div>
+            <div class="time">
+                <p class="">01:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">텔레파시로 다알어~</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는 내일 연습있어</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">케이콘 연습</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">뭔지는 안알려줄꺼얌</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">업드려있다가 잠들었어</p>
+            </div>
+            <div class="time">
+                <p class="">11:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">에고</p>
+            </div>
+            <div class="time">
+                <p class="">11:02</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잠깨우 오께</p>
+            </div>
+            <div class="time">
+                <p class="">11:02</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">굿모닝🌞</p>
+            </div>
+            <div class="time">
+                <p class="">11:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">알써</p>
+            </div>
+            <div class="time">
+                <p class="">11:40</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">굿이브닝</p>
+            </div>
+            <div class="time">
+                <p class="">11:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">연어샐러드 먹을거야</p>
+            </div>
+            <div class="time">
+                <p class="">11:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@도 밥먹어</p>
+            </div>
+            <div class="time">
+                <p class="">11:44</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.4/</p>
+            </div>
+            <div class="time">
+                <p class="">12:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/포동이.23/</p>
+            </div>
+            <div class="time">
+                <p class="">12:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">12:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">12:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아자자하자 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">12:24</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(동영상)</p>
+            </div>
+            <div class="time">
+                <p class="">12:26</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-18
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">흥</p>
+            </div>
+            <div class="time">
+                <p class="">00:57</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">👋</p>
+            </div>
+            <div class="time">
+                <p class="">00:57</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-20
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">14:28</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@</p>
+            </div>
+            <div class="time">
+                <p class="">14:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">보고싶어서</p>
+            </div>
+            <div class="time">
+                <p class="">14:57</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">불렀더</p>
+            </div>
+            <div class="time">
+                <p class="">14:57</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">괜찮지?</p>
+            </div>
+            <div class="time">
+                <p class="">15:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">전화하자고?</p>
+            </div>
+            <div class="time">
+                <p class="">15:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">15:18</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">셀프 벨소리</p>
+            </div>
+            <div class="time">
+                <p class="">15:21</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">15:26</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">머리 부스스</p>
+            </div>
+            <div class="time">
+                <p class="">15:26</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이따 저녁에 또올테니까  푹쉬고있어</p>
+            </div>
+            <div class="time">
+                <p class="">15:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤헤</p>
+            </div>
+            <div class="time">
+                <p class="">15:30</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘은푹자겠네ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">21:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">내생각하고있어?</p>
+            </div>
+            <div class="time">
+                <p class="">21:26</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤</p>
+            </div>
+            <div class="time">
+                <p class="">21:27</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이쁘네</p>
+            </div>
+            <div class="time">
+                <p class="">21:27</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">저녁은머먹었어?궁금해</p>
+            </div>
+            <div class="time">
+                <p class="">21:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응응 그래써</p>
+            </div>
+            <div class="time">
+                <p class="">21:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅎㅎ 나는 콩귝수 ㅎ</p>
+            </div>
+            <div class="time">
+                <p class="">21:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">올해 첨먹어바</p>
+            </div>
+            <div class="time">
+                <p class="">21:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@도먹어바</p>
+            </div>
+            <div class="time">
+                <p class="">21:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는소금파야</p>
+            </div>
+            <div class="time">
+                <p class="">21:43</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">뭐?설탕파라구?</p>
+            </div>
+            <div class="time">
+                <p class="">21:53</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">흠..</p>
+            </div>
+            <div class="time">
+                <p class="">21:53</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">21:55</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">5000만 설탕파와의 적대관계가 성립되었습니다</p>
+            </div>
+            <div class="time">
+                <p class="">21:55</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는 트렌디해서 설탕에서 소금으로바꼈지</p>
+            </div>
+            <div class="time">
+                <p class="">22:04</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">먹으면꼭알려줘</p>
+            </div>
+            <div class="time">
+                <p class="">22:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">인증해줘야 해</p>
+            </div>
+            <div class="time">
+                <p class="">22:05</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">소금도</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는 내맘이니까 말대답하지마!</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나는 나야!</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.1/</p>
+            </div>
+            <div class="time">
+                <p class="">22:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난퇴근할거야!</p>
+            </div>
+            <div class="time">
+                <p class="">22:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">고생했다!</p>
+            </div>
+            <div class="time">
+                <p class="">22:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘푹자구 내일도 아자자 해보장</p>
+            </div>
+            <div class="time">
+                <p class="">22:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">알써 설탕파소금파 농담이야</p>
+            </div>
+            <div class="time">
+                <p class="">22:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">먹고픈걸루 먹어 푸히</p>
+            </div>
+            <div class="time">
+                <p class="">22:14</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">응응~톡 또하자아</p>
+            </div>
+            <div class="time">
+                <p class="">22:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">들어갈게</p>
+            </div>
+            <div class="time">
+                <p class="">22:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘자🌙</p>
+            </div>
+            <div class="time">
+                <p class="">22:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">빠👋</p>
+            </div>
+            <div class="time">
+                <p class="">22:15</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-23
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">굿모닝 헤</p>
+            </div>
+            <div class="time">
+                <p class="">07:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.3/</p>
+            </div>
+            <div class="time">
+                <p class="">07:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/포동이.23/</p>
+            </div>
+            <div class="time">
+                <p class="">07:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">기분좋게시작하자구</p>
+            </div>
+            <div class="time">
+                <p class="">07:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤헤</p>
+            </div>
+            <div class="time">
+                <p class="">07:32</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">07:37</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난씨리얼먹으며 잠깨는준</p>
+            </div>
+            <div class="time">
+                <p class="">07:37</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">얘는 그냥콘푸라이트랑 같이섞어먹어야맛나</p>
+            </div>
+            <div class="time">
+                <p class="">07:38</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.4/</p>
+            </div>
+            <div class="time">
+                <p class="">07:38</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅎㅎ 외출준비잘하구</p>
+            </div>
+            <div class="time">
+                <p class="">07:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">아자자하자!</p>
+            </div>
+            <div class="time">
+                <p class="">07:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/Face.7/</p>
+            </div>
+            <div class="time">
+                <p class="">07:39</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">💪🔥</p>
+            </div>
+            <div class="time">
+                <p class="">07:39</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-26
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘자고있지</p>
+            </div>
+            <div class="time">
+                <p class="">04:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">푹자고있어~난 열일하고있을게@@</p>
+            </div>
+            <div class="time">
+                <p class="">04:06</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">퇴근안한건아니구 출근해</p>
+            </div>
+            <div class="time">
+                <p class="">04:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">깨웠나? 마저잘자!</p>
+            </div>
+            <div class="time">
+                <p class="">04:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.3/</p>
+            </div>
+            <div class="time">
+                <p class="">04:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">굿나잇🌙</p>
+            </div>
+            <div class="time">
+                <p class="">04:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">04:09</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-27
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">.</p>
+            </div>
+            <div class="time">
+                <p class="">19:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/Face.7/</p>
+            </div>
+            <div class="time">
+                <p class="">19:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">저녁은?</p>
+            </div>
+            <div class="time">
+                <p class="">21:45</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">21:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">21:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">21:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나야</p>
+            </div>
+            <div class="time">
+                <p class="">21:49</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나야</p>
+            </div>
+            <div class="time">
+                <p class="">21:50</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">21:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나야</p>
+            </div>
+            <div class="time">
+                <p class="">21:56</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헷</p>
+            </div>
+            <div class="time">
+                <p class="">21:58</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">주말 잘 보냈고?</p>
+            </div>
+            <div class="time">
+                <p class="">22:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">난 일요일은 그냥 좋더라😀</p>
+            </div>
+            <div class="time">
+                <p class="">22:00</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">월요일이 없다면 재미없을듯</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그러니 월요일도 좋아해봐^^</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">하루만 자나면 화요일이 잖아~ㅋㅋ</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">또 하루가 지나면 수요일이구~😃하하</p>
+            </div>
+            <div class="time">
+                <p class="">22:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">음~~~내일도 아자자!!!</p>
+            </div>
+            <div class="time">
+                <p class="">22:09</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@ 월요일에 힘내라고 나한테 얘기해봐~!</p>
+            </div>
+            <div class="time">
+                <p class="">22:11</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">어 어 월요일을 어 힘내라고 어 얘기도 어 해주고 어 신경도 어 써주고 어 그런말도 어 해줘야지 어 나는 어 힘내라고 어 얘기하는데 어 투정부리고 어 혼난다 어~</p>
+            </div>
+            <div class="time">
+                <p class="">22:16</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">엎드려 절받기</p>
+            </div>
+            <div class="time">
+                <p class="">22:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나 똑똑하다</p>
+            </div>
+            <div class="time">
+                <p class="">22:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">많이!!</p>
+            </div>
+            <div class="time">
+                <p class="">22:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">월요일에 나 꼭 챙겨!!</p>
+            </div>
+            <div class="time">
+                <p class="">22:22</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">즐거웠다</p>
+            </div>
+            <div class="time">
+                <p class="">22:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">충전하고 간다</p>
+            </div>
+            <div class="time">
+                <p class="">22:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">엎드려 절받기</p>
+            </div>
+            <div class="time">
+                <p class="">22:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">빠👋</p>
+            </div>
+            <div class="time">
+                <p class="">22:24</p>
+            </div>
+        </div>
+    
+        
+            <div class="date">
+                2021-06-29
+            </div>    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">잘자?</p>
+            </div>
+            <div class="time">
+                <p class="">01:07</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그냥 보고싶어서</p>
+            </div>
+            <div class="time">
+                <p class="">01:08</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">나만그래?</p>
+            </div>
+            <div class="time">
+                <p class="">01:10</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">01:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">히히히히히</p>
+            </div>
+            <div class="time">
+                <p class="">01:12</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/포동이.23/</p>
+            </div>
+            <div class="time">
+                <p class="">01:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘도 수고많았어</p>
+            </div>
+            <div class="time">
+                <p class="">01:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">토닥토닥</p>
+            </div>
+            <div class="time">
+                <p class="">01:13</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘 자고일어나면 내일도 분명 좋은일이있을거야</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">항상 난 너를응원해</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@편이야</p>
+            </div>
+            <div class="time">
+                <p class="">01:15</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">이제정말며칠안남았다그치</p>
+            </div>
+            <div class="time">
+                <p class="">01:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오랜만의 활동이야</p>
+            </div>
+            <div class="time">
+                <p class="">01:17</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">그냥 뭐가나오던 응원해줘 내편</p>
+            </div>
+            <div class="time">
+                <p class="">01:18</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">헤헤</p>
+            </div>
+            <div class="time">
+                <p class="">01:18</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">/hamboy.3/</p>
+            </div>
+            <div class="time">
+                <p class="">01:18</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(음성 메시지)</p>
+            </div>
+            <div class="time">
+                <p class="">01:19</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">ㅎㅎ 같이 푹자자</p>
+            </div>
+            <div class="time">
+                <p class="">01:21</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">@@ 꿈에서바</p>
+            </div>
+            <div class="time">
+                <p class="">01:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">쿨~🌙</p>
+            </div>
+            <div class="time">
+                <p class="">01:23</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">오늘도 굿모닝</p>
+            </div>
+            <div class="time">
+                <p class="">06:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">좋은하루보내자~😊</p>
+            </div>
+            <div class="time">
+                <p class="">06:35</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">(사진)</p>
+            </div>
+            <div class="time">
+                <p class="">06:41</p>
+            </div>
+        </div>
+    
+        
+        <div class="you">
+            <img class="you-img" src="../static/yty.jpg" /> 
+            <p class="you-name">니꼬</p>
+        </div>
+        <div class="msg">
+            <div class="youmsg text">
+                <p class="youmsg">💪</p>
+            </div>
+            <div class="time">
+                <p class="">06:41</p>
+            </div>
+        </div>
+    
+    <a id="toTop" href="#">TOP</a>
+    </div>
+</body>
+</html>
